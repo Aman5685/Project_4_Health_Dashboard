@@ -84,13 +84,26 @@
 {
     flex: 0 0 350px;
     max-width: 350px;
+    height: 1400px;
     background-color: #fff;
     border-radius: 25px;
+    overflow: auto;
     margin-top: 37px;
-    border-right: 5px solid #E3E4E6;
     padding: 0 15px;
 }
-
+/* .leftpanel::-webkit-scrollbar
+{
+    width: 10px;
+}
+.leftpanel::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+.leftpanel::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  .leftpanel::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  } */
 .leftpanel-heading
 {
     font-size: 28px;
@@ -108,7 +121,7 @@
 }
 .leftpanel-heading-h3
 {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 800;
     position: relative;
     left: 16px;
@@ -122,7 +135,7 @@
     color: #707070;
 }
 .leftpanel-heading-h3-samantha{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 900;
     position: relative;
     left: 11px;
@@ -138,7 +151,7 @@
 .leftpanel-heading-6-female{
     position: relative;
     top: 26px;
-    right: 107px;
+    right: 95px;
     font-size: 15px;
     font-weight: 400;
     color: #707070;
@@ -266,8 +279,8 @@
 }
 .Diagnostice-list-border
 {
-    border-right: 5px solid #E3E4E6;
     border-radius: 30px;
+    overflow: auto;
 }
 .Diagnostice-list-ul-navbar
 {

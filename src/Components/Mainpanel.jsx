@@ -26,6 +26,7 @@ import phoneicon from "../../public/images/PhoneIcon.svg";
 import femaleicon from "../../public/images/FemaleIcon.svg";
 import downloadicon from "../../public/images/download_icon.svg";
 import { GoDotFill } from "react-icons/go";
+// import {S} from "react-custom-scrollbars"
 import {
   LineChart,
   Line,
@@ -51,6 +52,7 @@ function Mainpanel() {
       <div className="main">
         <div className="container">
           <div className="dflex">
+          
             <div className="leftpanel">
             <div className="leftpanel-heading">Patients
               <img src={leftpanelsearch} alt="" />
@@ -128,12 +130,11 @@ function Mainpanel() {
               <img src={leftpanelmenu} alt="" />
             </div>
           </div>
-          {/* left-panel */}
+        {/* middle-panel */}
           <div className="middle-panel">
           <h2>Diagnosis History</h2>
           <div className="main-blood-div">
             <div className="blood-left">
-              {/* middle-panel */}
               <div className="blood-h3-p">
                 <h3>Blood Pressure</h3>
                 <p className="blood-p">Last 6 months</p>
@@ -143,7 +144,7 @@ function Mainpanel() {
               </div>
               <div>
                 {/* line-Grap */}
-              <ResponsiveContainer className="grap-container" max-width="100%" height={400}>
+      <ResponsiveContainer className="grap-container" max-width="100%" height={400}>
       <LineChart data={data} margin={{ top: 20, right: 10, bottom: 5 }}>
         <CartesianGrid strokeDasharray="3 3" stroke="#e0e0e0" />
         <XAxis dataKey="month" tick={{ fontSize: 12, fill: "#666" }} />
@@ -250,6 +251,7 @@ function Mainpanel() {
                   <li>Active</li>
                 </ul>
               </div>
+              
             </div>
           </div>
         </div>
