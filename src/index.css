@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Manrope:wght@200..800&family=Open+Sans:wght@502&display=swap');
+*{box-sizing: border-box;}
+body{
+  margin: 0;
+  padding: 0;
+  background: #F6F7F8 0% 0% no-repeat padding-box;
+  font-family: "Manrope", sans-serif;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 0 15px;
+}
+.dflex{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.align-items-centers{align-items: center;}
+img{max-width: 100%;}

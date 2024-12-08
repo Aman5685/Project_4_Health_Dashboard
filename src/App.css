@@ -1,0 +1,408 @@
+.header
+{
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 70px;
+}
+.logo,.navigation,.profile{padding: 0 15px;}
+.logo{
+    flex: 0 0 210px;
+    max-width: 210px;
+}
+.navigation{
+    flex: 0 0 100%;
+    max-width: calc(100% - 450px);
+}
+@media only screen and (max-width: 760px)
+{
+    .navigation,.profile
+    {
+        display: none;
+    }
+}
+.profile{
+    flex: 0 0 240px;
+    max-width: 240px;
+}
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.navigation ul li{
+    padding: 0 5px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #072635;
+    font-weight: 900;
+    display: flex;
+    border-radius: 40px;   
+    padding: 15px; 
+    align-items: center;
+    transition: all 0.5s;
+}
+.navigation ul li a span{
+    margin-right: 10px;
+}
+.navigation ul li a span img{display: block;}
+.navigation ul li a:hover{
+    background: #01F0D0;
+}
+.profile-photo{
+    flex: 0 0 40px;
+    max-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.humburg{
+    flex: 0 0 55px;
+    max-width: 55px;
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid #ddd;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
+}
+.profile-name{
+    flex: 0 0 100%;
+    max-width: calc(100% - 95px);
+    padding: 15px 10px;
+}
+.profile-name p{margin: 0;font-size: 13px;}
+.profile-name p strong{
+    display: inline-block;
+    width: 100%;
+}
+.main
+{
+    background-color: #F6F7F8;
+}
+.leftpanel
+{
+    flex: 0 0 350px;
+    max-width: 350px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-top: 37px;
+    border-right: 5px solid #E3E4E6;
+    padding: 0 15px;
+}
+
+.leftpanel-heading
+{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftpanel-patients
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    align-items: center;
+}
+.leftpanel-heading-h3
+{
+    font-size: 18px;
+    font-weight: 800;
+    position: relative;
+    left: 16px;
+}
+.leftpanel-heading-6{
+    position: relative;
+    top: 25px;
+    right: 117px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #707070;
+}
+.leftpanel-heading-h3-samantha{
+    font-size: 14px;
+    font-weight: 900;
+    position: relative;
+    left: 11px;
+    top: 0px;
+    }
+.leftpanel-heading-h3-Ashley
+{
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+    top: 0px;
+}
+.leftpanel-heading-6-female{
+    position: relative;
+    top: 26px;
+    right: 107px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #707070;
+}
+.leftpanel-patients:hover
+{
+    background-color:#D8FCF7;
+    transition: all 0.5s;
+}
+.middle-panel
+{  
+    flex: 0 0 100%;
+    max-width: calc(100% - 740px);
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 0 15px;
+    margin-top: 37px;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #f0f0f0;
+}
+
+.recharts-line-dot circle {
+  fill: #ffffff;
+  stroke-width: 2;
+}
+.grap-container
+{
+    position: relative;
+    right: 26px;
+}
+ .main-blood-div
+ {
+    display: flex;
+    background-color: #F4F0FE;
+    border-radius: 20px;
+ }
+ .blood-left{
+    flex: 0 0 300px;
+    max-width: 300px;
+    padding: 8px;
+    }
+.blood-right
+{
+    flex: 0 0 190px;
+    max-width: 200px;
+    padding: 5px;
+}
+.blood-h3-p
+{
+    display: flex;
+    justify-content: start;
+}
+.blood-p
+{
+    position: relative;
+    top: 7px;
+    left: 35px;
+    font-size: 14px;
+    color: #072635;
+}
+.blood-drop-icon
+{
+    position: relative;
+    top: 17px;
+    left: 50px;
+}
+.blood-right-upper
+{
+    border-bottom: 2px solid #CBC8D4;
+}
+.blood-right-upper-h3
+{
+    display: flex;
+}
+.right-blood-upper-p
+{
+    display: flex;
+    justify-content: space-evenly;
+    color: #072635;
+}
+.Diagnostic-main
+{
+    margin-top: 20px;
+    padding: 10px;
+}
+.diagnosis-down-main
+{
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+}
+.Diagnosis-down-1
+{
+    flex: 0 0 155px;
+    background-color: #E0F3FA;
+    border-radius: 12px;
+}
+.Diagnosis-down-img,.Diagnosis-down-p,.Diagnosis-down-h1,.Diagnosis-down-p
+{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.Diagnosis-down-arrowdown
+{
+    display: flex;
+    margin-left: 0px;
+    justify-content: space-around;
+    font-size: 14px;
+}
+.Diagnosis-down-2
+{
+    flex: 0 0 155px;
+    background-color: #FFE6E9;
+    border-radius: 12px;
+}
+.Diagnosis-down-3
+{
+    flex: 0 0 155px;
+    background-color: #FFE6F1;
+    border-radius: 12px;
+}
+.Diagnostice-list-border
+{
+    border-right: 5px solid #E3E4E6;
+    border-radius: 30px;
+}
+.Diagnostice-list-ul-navbar
+{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        background-color: #F6F7F8;
+        height: 46px;
+        border-radius: 26px;
+        padding: 12px;
+        font-size: 15px;
+        font-weight: 600;
+}
+.Diagnostice-list-ul-1
+{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        color: #072635;
+        padding: 12px;
+        font-size: 13px;
+        font-weight: 600;
+}
+.Diagnostice-border-down
+{
+    border-bottom:1px solid #707070;
+}
+.right-panel
+{
+    flex: 0 0 350px;
+    max-width: 350px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-top: 37px;
+    padding: 0 15px;
+}
+.right-panel-image-1
+{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.right-panel-h2
+{
+    margin-left: 100px;
+}
+.right-panel-Birth
+{
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;  
+}
+.right-panel-female-icon
+{
+    position: relative;
+    right: 17px;
+}
+.famale-icons-h5
+{
+    font-weight: 400;
+    position: relative;
+    bottom: 12px;
+    right: 50px;
+}
+.female-icon-h3
+{
+    position: relative;
+    right: 161px;
+    top: 6px;
+    font-weight: 500;
+}
+.phone-icon-h3{
+    position: relative;
+    right: 124px;
+    top: 6px;
+    font-weight: 500;
+}
+.new-phone-icons-h5
+{
+    position: relative;
+    bottom: 20px;
+    font-weight: 500;
+}
+.birth-h3
+{
+    position: relative;
+    top: 3px;
+    right: 118px;
+    font-weight: 500;
+}
+.right-insurance-main{
+    display: flex;
+}
+.insurance-h5{
+    position: relative;
+    top: -10px;
+    left: 27px;
+    font-weight: 400;
+}
+.insurance-span{
+    position: relative;
+    top: 33px;
+    right: 100px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.right-button-last{
+    display: flex;
+    padding: 19px 76px 19px 60px;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 25px;
+    border: 0px;
+    border-radius: 25px;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.right-button-last:hover{
+    background-color: #01F0D0; 
+}
+.lab-result-down-main
+{
+    border-right: 5px solid #E3E4E6;
+    padding: 10px;
+}
+.Lab-result{
+ display: flex;
+ justify-content: space-between;
+}
+/* Mobile navbar */
+@media (min-width: 768px)
+{
+    .mobile-navigation
+    {
+        display: none;
+    }
+    
+}
